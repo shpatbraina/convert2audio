@@ -1,0 +1,9 @@
+Update by redeploying
+
+Steps:
+	1. open cmd as administrator in youtube-dl git directory
+	2. heroku git:clone -a convert2audio
+	3. cd convert2audio
+	4. git commit --allow-empty -m "Trigger Heroku to redeploy"
+	5. git push heroku master
+	6. done
